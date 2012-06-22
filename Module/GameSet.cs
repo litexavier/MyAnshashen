@@ -98,6 +98,20 @@ namespace Ascension.Module
             voidArea = new Area("虚空区");
         }
 
+        public void reset()
+        {
+            centerArea = new ArrayList();
+            for (int i = 1; i <= CenterRowNum; i++)
+            {
+                centerArea.Add(new Area("中央牌区" + i.ToString()));
+            }
+            mysticArea = new Area("秘教士");
+            infantryArea = new Area("重装步兵");
+            cultistArea = new Area("邪教徒");
+            centerDeckArea = new Area("中央牌库");
+            voidArea = new Area("虚空区");
+        }
+
         public void AddPlayer (Player player)
         {
             players.Add(player);
