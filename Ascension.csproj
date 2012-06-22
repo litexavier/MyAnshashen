@@ -6,7 +6,7 @@
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{FA20B5BF-8A16-49F5-9B09-EDA2A9AF7E7E}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Ascension</RootNamespace>
     <AssemblyName>Ascension</AssemblyName>
@@ -65,7 +65,7 @@
     <Compile Include="Module\Area.cs" />
     <Compile Include="Module\Card.cs" />
     <Compile Include="Module\Definitions.cs" />
-    <Compile Include="Module\Picture.cs" />
+    <Compile Include="Module\GameSet.cs" />
     <Compile Include="Module\Player.cs" />
     <Compile Include="Module\Resource.cs" />
     <Compile Include="Network\AscensionMessage.cs" />
