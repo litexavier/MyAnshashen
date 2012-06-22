@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AppTest.Properties;
+using Ascension.Properties;
 using System.Net.Sockets;
 using System.Net;
 using System.Threading;
 using System.Collections;
 using System.Windows.Forms;
 
-namespace AppTest.Network
+namespace Ascension.Network
 {
     public delegate void MessageHandler(AscensionMessage mes);
 

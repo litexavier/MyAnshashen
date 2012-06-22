@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace AppTest.Network
+namespace Ascension.Network
 {
     [Serializable]
     public class AscensionMessage

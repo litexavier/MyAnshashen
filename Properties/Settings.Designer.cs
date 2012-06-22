@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AppTest.Properties {
+namespace Ascension.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

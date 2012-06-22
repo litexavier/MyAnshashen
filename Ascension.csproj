@@ -6,7 +6,7 @@
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{FA20B5BF-8A16-49F5-9B09-EDA2A9AF7E7E}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Ascension</RootNamespace>
     <AssemblyName>Ascension</AssemblyName>
@@ -51,6 +51,7 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -67,8 +68,14 @@
     <Compile Include="Module\Picture.cs" />
     <Compile Include="Module\Player.cs" />
     <Compile Include="Module\Resource.cs" />
+    <Compile Include="Network\AscensionMessage.cs" />
+    <Compile Include="Network\AscensionServer.cs" />
+    <Compile Include="Network\MessageCommand.cs" />
+    <Compile Include="Network\NetworkHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">

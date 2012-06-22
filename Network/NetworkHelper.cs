@@ -8,7 +8,7 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 
-namespace AppTest.Network
+namespace Ascension.Network
 {
     class NetworkHelper
     {
