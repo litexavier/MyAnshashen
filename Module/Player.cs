@@ -7,6 +7,15 @@ namespace Ascension.Module
 {
     class Player
     {
-        
+        string name;
+
+        private Area discardArea;
+        private Area handArea;
+        private Area deckArea;
+
+        public Player()
+        {
+
+        }
     }
 }

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{FA20B5BF-8A16-49F5-9B09-EDA2A9AF7E7E}</ProjectGuid>
     <OutputType>Exe</OutputType>
@@ -63,7 +63,6 @@
   <ItemGroup>
     <Compile Include="Module\Area.cs" />
     <Compile Include="Module\Card.cs" />
-    <Compile Include="Module\Cards.cs" />
     <Compile Include="Module\Definitions.cs" />
     <Compile Include="Module\Picture.cs" />
     <Compile Include="Module\Player.cs" />

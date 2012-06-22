@@ -43,7 +43,7 @@ namespace Ascension.Module
             object[] a = new object[c.Count];
             c.CopyTo(a, 0);
             byte[] b = new byte[a.Length];
-            rng.NextBytes(b);
+            rng.NextBytes(b);   
             Array.Sort(b, a);
             return new ArrayList(a);
         }

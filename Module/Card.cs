@@ -5,12 +5,28 @@ using System.Text;
 
 namespace Ascension.Module
 {
+    /// <summary>
+    /// a card, including type, faction, honor, card name, and area belong.
+    /// </summary>
     abstract class Card
     {
         protected CardType type;
         protected FactionType faction;
         protected Resource honor;
+        protected Area belong;
         protected string name;
+
+        public Area Belong
+        {
+            get
+            {
+                return belong;
+            }
+            set
+            {
+                belong = value;
+            }
+        }
 
         public CardType Type
         {
@@ -28,12 +44,27 @@ namespace Ascension.Module
             }
         }
 
+        protected Card()
+        {
+            belong = null;
+        }
+
         public override string ToString()
         {
-            return "(" + name + "," + type + "," + faction + "," + honor + ")";
+            if (belong != null)
+            {
+                return "(" + name + "," + type + "," + faction + "," + honor + "," + belong.Name + ")";
+            }
+            else
+            {
+                return "(" + name + "," + type + "," + faction + "," + honor + ")";
+            }
         }
     }
 
+    /// <summary>
+    /// Monster card, no hornor, no faction.
+    /// </summary>
     class MonsterCard : Card
     {
         public MonsterCard( string name )
