@@ -8,8 +8,8 @@
     <ProjectGuid>{FA20B5BF-8A16-49F5-9B09-EDA2A9AF7E7E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AscensionModule</RootNamespace>
-    <AssemblyName>AscensionModule</AssemblyName>
+    <RootNamespace>Ascension</RootNamespace>
+    <AssemblyName>Ascension</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PublishUrl>publish\</PublishUrl>
@@ -27,7 +27,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <StartupObject>AscensionModule.Program</StartupObject>
+    <StartupObject>Ascension.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,12 +66,10 @@
     <Compile Include="Module\Cards.cs" />
     <Compile Include="Module\Definitions.cs" />
     <Compile Include="Module\Picture.cs" />
+    <Compile Include="Module\Player.cs" />
     <Compile Include="Module\Resource.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">

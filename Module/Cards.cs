@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;  
 using System.Collections;
 
-namespace AscensionModule
+namespace Ascension.Module
 {
     class Cards : IEnumerable
     {

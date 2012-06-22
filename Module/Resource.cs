@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace AscensionModule
+namespace Ascension.Module
 {
     class Resource
     {

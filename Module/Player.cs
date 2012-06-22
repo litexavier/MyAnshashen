@@ -5,8 +5,8 @@ using System.Text;
 
 namespace Ascension.Module
 {
-    class Area
+    class Player
     {
-        Cards cardList;
+        
     }
 }
