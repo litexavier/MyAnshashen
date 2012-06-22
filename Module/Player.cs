@@ -15,7 +15,11 @@ namespace Ascension.Module
 
         public Player()
         {
-
+            discardArea = new Area("弃牌区");
+            handArea = new Area("手牌区");
+            deckArea = new Area("牌组区");
         }
+
+        
     }
 }
