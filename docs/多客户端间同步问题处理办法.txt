@@ -1,0 +1,17 @@
+CC: Central Controller
+MC: Module Controller
+VC: View Controller
+NC: Network Controller
+
+多客户端间存在一种Module不同步的状况.
+例如A说我占有了O, 同时B说我占有了O. 等到发送同步消息时，发现模型不一致了. 于是改变交互方式如下:
+
+1. Master对一个模型变更的Notifier的处理方式如下:
+1) 直接转给MC
+2) 转NC，注意消息发送/接收顺序, 避免Slave乱序执行.
+
+2. Slave对一个模型变更的Notifier的处理方式如下:
+1) 如发送方不是NC, 转NC.
+2) 如发送方是NC, 转MC.
+
+Addition: 如果时间允许，可以做Module异常检测 (由Network单独处理)
