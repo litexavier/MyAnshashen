@@ -1,0 +1,5 @@
+D:\UserDir\Documents\Visual Studio 2008\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\UserDir\Documents\Visual Studio 2008\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\AscensionModule.exe
+D:\UserDir\Documents\Visual Studio 2008\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\AscensionModule.pdb
+D:\UserDir\Documents\Visual Studio 2008\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\AscensionModule.exe
+D:\UserDir\Documents\Visual Studio 2008\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\AscensionModule.pdb
