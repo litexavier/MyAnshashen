@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AreaDefinitions>
+  <Pack version="1.0">
+    <Area name="虚空区" value="null" inf="0"/>
+    <Area name="中央牌库" value="center" inf="0"/>
+    <Area name="秘教士区" value="秘教士" inf="1"/>
+    <Area name="重装步兵区" value="重装步兵区" inf="1"/>
+    <Area name="邪教徒区" value="邪教徒" inf="1"/>
+  </Pack>
+  <Pack version="2.0">
+    <Area name="虚空区" value="null" inf="0"/>
+    <Area name="中央牌库" value="center" inf="0"/>
+    <Area name="秘教士区" value="秘教士" inf="1"/>
+    <Area name="重装步兵区" value="重装步兵区" inf="1"/>
+    <Area name="邪教徒区" value="邪教徒" inf="1"/>
+  </Pack>
+  <Pack version="3.0">
+    <Area name="虚空区" value="null" inf="0"/>
+    <Area name="中央牌库" value="center" inf="0"/>
+    <Area name="秘教士区" value="秘教士" inf="1"/>
+    <Area name="重装步兵区" value="重装步兵区" inf="1"/>
+    <Area name="邪教徒区" value="邪教徒" inf="1"/>
+    <Area name="狂信者区" value="狂信者" inf="1"/>
+    <Area name="梦境区" value="null" inf="0"/>
+  </Pack>
+</AreaDefinitions>
